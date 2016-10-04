@@ -12,6 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'production/public/'),
     filename: 'bundle.js',
+    publicPath: '/' // this will make sure that all statics are hit at '/' route
   },
   plugins: [
     new webpack.DefinePlugin({
