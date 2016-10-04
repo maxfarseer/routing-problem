@@ -12,6 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'production/public/'),
     filename: 'bundle.js',
+    publicPath: '/', // change from /js to /js/
   },
   plugins: [
     new webpack.DefinePlugin({
