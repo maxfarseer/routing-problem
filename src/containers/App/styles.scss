@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+h4 {
+  font-size: 20px;
+}
+label {
+  font-weight: bold;
+}
+input[disabled] {
+  color: #CCC;
+}
+
+.none {
+  display: none;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.centered {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.w300 {
+  padding: 0 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+.bg-info {
+  padding: 15px;
+}
+.row-margin {
+  margin-bottom: 20px;
+}
+
+/* for react-virtualized */
+.grid-table div {
+  outline: none;
+}
+.Grid__cell {
+  line-height: 40px;
+}
+
+.filtered-by {
+  color: #FF0000;
+}
